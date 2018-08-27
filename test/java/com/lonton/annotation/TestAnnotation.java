@@ -36,6 +36,7 @@ public class TestAnnotation {
 	public void TestAutowired() throws Exception{
 		Object a=defaultListableBeanFactory.getBean("autowiredbean");
 		Object b=defaultListableBeanFactory.getBean("beana");
+		System.out.println(a);
 		System.out.println(b);
 		//类BeanA的对象我们已经放入了ioc容器，进行注入
 		AutowiredHandle.AutowiredHandleMethod(AutowiredBean.class,defaultListableBeanFactory,

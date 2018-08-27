@@ -19,13 +19,13 @@ import com.lonton.enums.BasicType;
 import com.lonton.exception.CircularDependException;
 import com.lonton.exception.XmlConfigurationErrorException;
 
-/*
+/**
  * @author chenwentao
  * @since  2017-01-25
  * 
  * 1.一個基本的容器实现,我這裡簡單實現，直接繼承AbstractBeanFactory
  * 这个工厂和XmlBeanDefinitionReader是联系在一起的，当调用XmlBeanDefinitionReader类
- * 中的loadBeanDefinitions()方法时，会调用registerBeanDefinition()方法，讲beandefinition
+ * 中的loadBeanDefinitions()方法时，会调用registerBeanDefinition()方法，将beandefinition
  * 注入到DefaultListableBeanFactory，后面我在拓展工厂的时候，只需要继承DefaultListableBeanFactory
  * 就拥有了完整的beandefinition集合
  * 3.这里我们只能加载FileSystemResource，如需拓展，继承此类就可以

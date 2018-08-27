@@ -13,9 +13,14 @@ import com.lonton.exception.BeansException;
 import com.lonton.exception.CircularDependException;
 import com.lonton.exception.NoSuchBeanDefinitionException;
 
-/*
- * @author chenwentao
- * @since  2017-01-25
+/**
+ *
+ * 维护两个bean池：新生池、完成池
+ * 提供getBean方法实现
+ *
+ *
+ * @author chenwentao kaccnGit
+ * @since 2017-01-25
  */
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 
@@ -57,7 +62,7 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
                 try {
                     throw new NoSuchBeanDefinitionException("");
                 } catch (NoSuchBeanDefinitionException e1) {
-                    logger.error("bean不存在:"+name);
+                    logger.error("bean不存在:" + name);
                     return null;
                 }
             /*
@@ -68,13 +73,13 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
             if (depends != null && depends.size() >= 1) {
                 for (String depend : depends) {
                     //如果依赖的是基本类型，则不需要先进行创建
-                    if(depend.indexOf('.')==0){
+                    if (depend.indexOf('.') == 0) {
                         continue;
                     }
                     // 如果发现该bean的某些依赖不存在
                     if (!containsBeanDefintion(depend)) {
-                        logger.warn("beanName: "+name + "     message:may be you will create  a  "
-                                + "incomplete bean,依赖的bean:"+depend+"不存在！");
+                        logger.warn("beanName: " + name + "     message:may be you will create  a  "
+                                + "incomplete bean,依赖的bean:" + depend + "不存在！");
                         // 直接跳过，进入下一次循环
                         continue;
                     } else {

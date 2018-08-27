@@ -6,6 +6,7 @@
     <!-- ref应用注入bean -->
     	<property ref="people" ></property>
     	<property  ref="food" ></property>
+        <property name="name"  type="java.lang.String" value="嘿嘿" ></property>
     </bean>
     
     <bean id="aspectbeana" class="com.lonton.core.aop.AspectJBeanA"></bean> 

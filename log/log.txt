@@ -493,3 +493,58 @@
 2017-03-30 19:13:02  [ main:6 ] - [ INFO ]  the  same  food?   true
 2017-03-30 19:13:02  [ main:6 ] - [ INFO ]  西红柿
 2017-03-30 19:13:02  [ main:7 ] - [ INFO ]  西红柿100
+2018-08-27 16:42:27  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 16:42:27  [ main:5 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 16:42:27  [ main:5 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 16:57:17  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 16:57:17  [ main:5 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 16:57:17  [ main:5 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 16:57:51  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 16:57:51  [ main:10 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 16:57:51  [ main:10 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 16:58:23  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 16:58:23  [ main:8 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 16:58:23  [ main:8 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:01:07  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 17:04:40  [ main:213441 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:04:40  [ main:213441 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:04:48  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 17:04:48  [ main:5 ] - [ WARN ]  beanName: beana     message:may be you will create  a  incomplete bean,依赖的bean:name不存在！
+2018-08-27 17:04:48  [ main:5 ] - [ WARN ]  beanName: beana     message:may be you will create  a  incomplete bean,依赖的bean:name不存在！
+2018-08-27 17:04:48  [ main:6 ] - [ ERROR ]  获取到了set方法，没有能获取到需要注入的bean:name
+2018-08-27 17:04:48  [ main:6 ] - [ ERROR ]  获取到了set方法，没有能获取到需要注入的bean:name
+2018-08-27 17:04:48  [ main:7 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:04:48  [ main:7 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:04:48  [ main:8 ] - [ WARN ]  beanName: beana     message:may be you will create  a  incomplete bean,依赖的bean:name不存在！
+2018-08-27 17:04:48  [ main:8 ] - [ WARN ]  beanName: beana     message:may be you will create  a  incomplete bean,依赖的bean:name不存在！
+2018-08-27 17:04:48  [ main:10 ] - [ ERROR ]  获取到了set方法，没有能获取到需要注入的bean:name
+2018-08-27 17:04:48  [ main:10 ] - [ ERROR ]  获取到了set方法，没有能获取到需要注入的bean:name
+2018-08-27 17:05:21  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 17:05:21  [ main:7 ] - [ WARN ]  beanName: beana     message:may be you will create  a  incomplete bean,依赖的bean:name不存在！
+2018-08-27 17:05:21  [ main:7 ] - [ WARN ]  beanName: beana     message:may be you will create  a  incomplete bean,依赖的bean:name不存在！
+2018-08-27 17:05:21  [ main:8 ] - [ ERROR ]  获取到了set方法，没有能获取到需要注入的bean:name
+2018-08-27 17:05:21  [ main:8 ] - [ ERROR ]  获取到了set方法，没有能获取到需要注入的bean:name
+2018-08-27 17:05:21  [ main:9 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:05:21  [ main:9 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:05:21  [ main:10 ] - [ WARN ]  beanName: beana     message:may be you will create  a  incomplete bean,依赖的bean:name不存在！
+2018-08-27 17:05:21  [ main:10 ] - [ WARN ]  beanName: beana     message:may be you will create  a  incomplete bean,依赖的bean:name不存在！
+2018-08-27 17:05:21  [ main:11 ] - [ ERROR ]  获取到了set方法，没有能获取到需要注入的bean:name
+2018-08-27 17:05:21  [ main:11 ] - [ ERROR ]  获取到了set方法，没有能获取到需要注入的bean:name
+2018-08-27 17:06:20  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 17:06:20  [ main:5 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:06:20  [ main:5 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:07:04  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 17:11:01  [ main:236289 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:11:01  [ main:236289 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:11:07  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 17:11:07  [ main:7 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:11:07  [ main:7 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:13:09  [ main:1 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 17:13:09  [ main:9 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:13:09  [ main:9 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:14:17  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 17:14:17  [ main:9 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:14:17  [ main:9 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:34:25  [ main:0 ] - [ INFO ]  一共初注册了5个beanDefinition
+2018-08-27 17:34:25  [ main:7 ] - [ ERROR ]  bean不存在:autowiredbean
+2018-08-27 17:34:25  [ main:7 ] - [ ERROR ]  bean不存在:autowiredbean
