@@ -1,6 +1,8 @@
 package com.lonton.classForTest;
 
-public class Food {
+import com.lonton.tools.BaseBean;
+
+public class Food extends BaseBean {
 
     private String foodName;
 

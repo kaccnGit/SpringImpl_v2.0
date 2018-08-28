@@ -1,6 +1,8 @@
 package com.lonton.classForTest;
 
-public class People {
+import com.lonton.tools.BaseBean;
+
+public class People extends BaseBean {
 
     String name;
     
@@ -27,10 +29,4 @@ public class People {
        return food.say();
 
     }
-
-    @Override
-    public String toString() {
-        return "我是人";
-    }
-
 }

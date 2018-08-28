@@ -2,13 +2,14 @@ package com.lonton.bean;
 
 import com.lonton.classForTest.Food;
 import com.lonton.classForTest.People;
+import com.lonton.tools.BaseBean;
 
-public class BeanA implements jiekou {
-    
+public class BeanA extends BaseBean implements jiekou {
+
     private People people;
-    
+
     private Food food;
-    
+
     public Food getFood() {
         return food;
     }
@@ -27,10 +28,10 @@ public class BeanA implements jiekou {
 
     public String name;
 
-    public String toString() {
-        // TODO Auto-generated method stub
-        return "BeanA测试成功" + "属性名：" + name;
-    }
+//    public String toString() {
+//        // TODO Auto-generated method stub
+//        return "BeanA测试成功" + "属性名：" + name;
+//    }
 
     public void setName(String name) {
         this.name = name;
